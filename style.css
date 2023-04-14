@@ -1,0 +1,546 @@
+﻿.mySlides {
+    display: none;
+}
+
+#box {
+    background-color: rgb(36,55,70);
+    color: white;
+}
+
+
+/*for 5 pics*/
+.container {
+    position: relative;
+    width: 15%;
+    height: 15%;
+    float: left;
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+}
+
+#frst {
+    margin-left: 55px
+}
+
+/* Make the image to responsive */
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: auto;
+    background: rgba(255,255,255,1); /* Black see-through */
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    z-index: 1
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+    opacity: 1;
+}
+/*for complete*/
+.dytxea {
+    text-align: center;
+}
+
+.izrdm > h2 {
+    position: relative;
+    display: inline-block;
+}
+/*for text*/
+.hlgtjo {
+    font-size: 39px;
+    color: rgb(36,55,70);
+    font-family: serif;
+    font-weight: 700;
+    line-height: 1.1;
+    overflow-wrap: break-word;
+    margin:20px
+}
+
+
+.izrdm > h2::before {
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 2px;
+    background: rgb(36,55,70);
+    right: 100%;
+    content: "";
+}
+
+.izrdm > h2::after {
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 2px;
+    background: rgb(36,55,70);
+    content: "";
+}
+
+.onimg {
+    display: block;
+    font-size: 47px;
+    font-weight: 300;
+    color: rgb(36, 55, 70);
+    font-family: serif;
+    line-height: 1.1;
+    overflow-wrap: break-word;
+    position: absolute;
+    top: 25%;
+    left: 13%;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    background-color: rgb(196, 0, 88);
+    border: none;
+    box-shadow: rgba(36, 55, 70, 0.5) 0px 2px 4px;
+    position: absolute;
+    top: 40%;
+    left: 21%;
+    padding: 11px 20px 11px 20px;
+    letter-spacing: 1px;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: Calibre, Helvetica, sans-serif;
+}
+
+    .btn:hover {
+        background-color: white;
+        color: rgb(196, 0, 88);
+        cursor: pointer;
+    }
+/*for 10%everything*/
+.pic {
+    position: absolute;
+    top: 62%;
+    left: 75%;
+    display: inline-block;
+    color: #243746;
+    width: 220px;
+    height: 30px
+}
+
+.fresh {
+    position: absolute;
+    top: 56%;
+    left: 78%;
+    font-size: 11px;
+    color: #243746;
+    display: inline-block;
+    font-family: Calibre, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 2px solid #243746;
+    border-radius: 12.5px;
+    width: fit-content;
+    padding: 2px 15px;
+    cursor: pointer;
+}
+/*For footer*/
+FOOTER {
+    height: 300px;
+    background-color: rgb(36,55,70);
+    color: white;
+    font-size: 13PX;
+    
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+}
+
+
+.title {
+    font-weight: bold;
+}
+
+.topic {
+    font-size: 15px;
+    color: white;
+    padding:10px;
+    text-decoration:none;
+}
+.topic:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+.icons {
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.Subscribe {
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    height: 41px;
+    padding:10px 20px;
+    border:none;
+    border-radius: 0px 2px 2px 0px;
+    font-weight:bold;
+}
+.inputmail {
+    border:none;
+    height: 41px;
+    padding: 10px 20px;
+    border-radius: 0px 2px 2px 0px;
+}
+/*for help*/
+.fix {
+    position: fixed;
+    background-color: rgb(196, 0, 88);
+    padding: 13px 22px;
+    border-radius: 999rem;
+    right: 0px;
+    border: none;
+    font-weight: 800;
+    margin: 10px 20px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system;
+    display: flex;
+    z-index: 1;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+.show {
+    fill: rgb(255, 255, 255);
+    padding-right: 8px;
+    display: inline-flex;
+}
+
+.fix svg {
+    height: 1.42857rem;
+    width: 1.42857rem;
+}
+/*nav bar*/
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    box-shadow: rgba(36, 55, 70, 0.12) 0px 2px 5px;
+    width: 100%
+}
+    
+       
+    
+
+.navbar a {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+    .subnav .subnavbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: black;
+        padding: 14px 16px;
+        background-color: white;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .navbar a:hover, .subnav:hover .subnavbtn {
+        background-color: ghostwhite;
+        font-weight: bold;
+        z-index: 1;
+    }
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 30%;
+    box-shadow: rgba(36, 55, 70, 0.12) 0px 2px 5px;
+}
+
+    .subnav-content a {
+        color: black;
+        text-decoration: none;
+    }
+
+        .subnav-content a:hover {
+            background-color: #eee;
+            color: black;
+        }
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.dropone {
+    position: absolute;
+    width: 20%;
+    float: right;
+    margin-left: 800px;
+    top: 10%
+}
+
+.droptwo {
+    position: absolute;
+    top: 10%;
+    width: 20%;
+    margin-left: 500px;
+}
+
+.discover:hover {
+    color: rgb(255 0 220);
+}
+
+#align {
+    float: right;
+    margin-right: 20px;
+    padding-top: 15px
+}
+
+#revw {
+    margin-top: 15px
+}
+
+.cart {
+    border: 0;
+    cursor: pointer;
+    background:none;
+}
+.new{
+    background-color:rgb(36,55,70);
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding:6px 8px
+}
+/*refer and earn overlay*/
+
+foTake ur sleepr 3 back imgs
+.disk {
+    background-image: url('images/WhatsApp Image 2023-04-10 at 3.51.07 PM.jpeg');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hoverbutton {
+    background-color: crimson;
+    color: white
+}
+
+    .hoverbutton:hover {
+        background-color: white;
+        color: deeppink;
+        cursor: pointer;
+    }
+    /*take sleep to nxt lvl*/
+
+/*.h2sleep {
+    margin: -550px;
+    margin-left: 20px;
+}*/
+
+
+/*.textsleep {
+    position:absolute;
+    bottom:50px;
+    margin-bottom: 5rem;
+    font-size: 39px;
+    font-family: Wulkan, serif;
+    font-weight: 700;
+    line-height: 1.1;
+}*/
+
+/*.totaltext {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom:20%;
+    text-align: center;
+}*/
+
+
+
+/*.fall {
+    margin-bottom: 1rem;
+    font-size: 16px;
+    color: rgb(36, 55, 70);
+    font-family: Calibre, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.shopbtn {
+    font-family: Calibre, Helvetica, sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: var(--letter-spacing-1px);
+    text-align: center;
+    background-color: rgb(196, 0, 88);
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 8px 20px;
+    box-shadow: rgba(36, 55, 70, 0.5) 0px 2px 4px;
+}
+
+    .shopbtn:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(196, 0, 88);
+    }*/
+
+
+
+#totalalign {
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+#sidebig {
+    background-size: cover;
+    width: 60%;
+    text-decoration: none;
+    float: left;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+    #sidebig:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+.small {
+    width: 430px;
+    display: block;
+    height: 200px;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    padding-top: 20px
+}
+    .small:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+    /*after learn more*/
+.maincov {
+    height:100%;
+}
+
+.bcgcov {
+    background-image: url(images/sky.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+.fLuAxm {
+    padding: 3rem 0px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.esUlGA {
+    max-width: 570px;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    margin: 0px 1rem;
+}
+
+.gqNMhy {
+    margin-top: 0.5rem;
+    max-width: 200px;
+    padding-bottom: 0px;
+}
+
+    .gqNMhy img {
+        border: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+.ECkyy {
+    font-size: 34px;
+    color: rgb(36, 55, 70);
+    font-family: Wulkan, serif;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+/*screenshot*/
+.efitsc {
+    box-shadow: rgba(36, 55, 70, 0.5) 0px 2px 4px;
+    margin-left: 100px;
+    margin-top: 58px;
+    cursor:pointer;
+}
+/*3 star cards*/
+.checked {
+    color: orange;
+}
+
+.card1 {
+   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 350px;
+    background-color: white;
+}
+
+.text {
+    padding: 2px 3px;
+}
+
+/*.row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.block {
+    width: 100px;
+    float: left;
+}*/
+
+/*.hi {
+    background-image: url(images/skinbck.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height:5px;
+}*/
+
+
+
